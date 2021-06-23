@@ -169,7 +169,7 @@ height:15%
     padding-left:5px;
     padding-right:5px;
     padding-bottom:5px;
-    width:49.9%;
+    width:47%;
     height:90%;
     cursor:pointer;
     border-radius:0px;
@@ -183,10 +183,11 @@ height:15%
     padding-right:5px;
     padding-left:5px;
     padding-bottom:5px;
-    width:49.9%;
+    width:49%;
     height:90%;
     cursor:pointer;
     border-radius:0px;
+    float:right;
 }
 
 .product-basket:hover{
