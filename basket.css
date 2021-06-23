@@ -3,7 +3,7 @@
     margin:0px;
 }
 body{
-    background: white;
+    background:white;
 }
 .menu{
     text-decoration:none;
@@ -50,15 +50,19 @@ footer {
 footer{
       width:100%;
       background-color:#232a37;
+      text-align:center;
 }
   footer address {
     padding-left:30px;
     padding-top:20px;
     
   }
+footer span{
+    text-align:center;
+}
 footer p{
     padding-left:30px;
-    padding-top:30px;
+    
 }
 
 .input-box{
@@ -97,11 +101,22 @@ button.firstBtn:focus{
     border: none;
     outline:none;
     }
+.products{
+    width:900px;
+    height:100%;
+    margin:0 auto;
+    
+}
 .product{
     margin-bottom:30px;
+    background-color:white; 
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
 }
 .product-image{
     width:20%;
+    margin-left:10px;
 }
 .product-image img{
     width:200px;
@@ -164,8 +179,11 @@ button.firstBtn:focus{
 .product-order:hover{
     color: #232a37;
     background:white;
+    border:1px solid #232a37;
 }
 .product-delete:hover{
     color: #232a37;
     background:white;
+    border:1px solid #232a37;
 }
+
