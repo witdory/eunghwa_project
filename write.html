@@ -27,54 +27,47 @@
     
     <section class="item">
 
-        <p style="margin-bottom:50px;margin-left:20px;font-size:20px;text-align:center;">상품정보</p>
+        <p style="margin-bottom:50px;margin-left:20px;font-size:20px;text-align:center;">판매글 쓰기</p>
         <div class="products">
             <div class="product">
-
+                
                 <span class="product-image">
                     <img src="http://itimg.chosun.com/sitedata/image/202012/18/2020121802058_0.jpg">
+                    
                 </span>
     
                 <span class="product-info">
     
                     <p class="product-name">
     
-                        <a class="product-name-a" href="product.html">삼성전자 갤럭시북 플렉스2 미스틱브론즈 노트북 NT950QDZ-G51AZ (i5-1135G7 39.6cm MX450 WIN10 Home)
-                        </a>
+                        
+                        <input id="search"class="" type="text" placeholder="상품명" >
     
                     </p>
                     <p class="product-price">
-                        1,719,000원
+                        <input id="search" type="text" placeholder="상품 가격" >
                     </p>
     
-                    <input type="checkbox" class="checkbox" id="cb1">
-                    <label for="cb1">
-    
-                    </label>
+                    
                     <br>
-                    <p> 주의 : 실제로 판매하는 제품이 아닙니다</p>
+                    <form action="/my-handling-form-page" method="post" >
+                        <div class="write-area">
+                            <textarea style="width:500px;height:300px;" id="msg">내용 입력</textarea>
+                        </div>
+                    
+                        
+                    </form>
+                    <p> 주의 : 실제로 판매되는 제품이 아닙니다</p>
                     
                 </span>
     
     
             </div>
             <span class="product-choice">
-                <button type="button" class="product-delete"onClick="location.href='basket.html'">장바구니</button>
-                <button type="button" class="product-order"onClick="location.href='basket.html'">구매하기</button>
+                <button type="button" class="product-delete"onClick="location.href='index-mem.html'">취소</button>
+                <button type="button" class="product-order"onClick="location.href='index-mem.html'">글쓰기</button>
             </span>
 
-            <div class="product-info-images">
-                <p>
-                    <img src="http://img.danawa.com/prod_img/500000/556/973/desc/prod_12973556/add_1/20210409093155707_YCZNNOBE.jpg">
-                </p>
-                <p>
-                    <img src="http://img.danawa.com/prod_img/500000/556/973/desc/prod_12973556/add_1/20210409093156475_54JPWDEG.jpg">
-                </p>
-            </div>
-            <span class="product-choice">
-                <button type="button" class="product-delete"onClick="location.href='basket.html'">장바구니</button>
-                <button type="button" class="product-order"onClick="location.href='basket.html'">구매하기</button>
-            </span>
             
             
         </div>
